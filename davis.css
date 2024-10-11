@@ -1,0 +1,219 @@
+/* Reset some default styling */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Set body font and background */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 5px;
+}
+
+.body-background{
+    background-color: rgb(245, 243, 240);
+}
+header{
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    gap: 5px;
+    text-align: right;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-around;
+}
+nav li{
+    color: white;
+}
+h3{
+    color: #100f0f;
+}
+h4{
+    color: #0b0b0b;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#about .intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.intro img{
+    border-radius: 10px;
+}
+#about p{
+    max-width: 600px;
+}
+#about .flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex p:hover{
+    color: red;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: rgb(208, 206, 204);
+    width: 100%;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+/* Styling for headings */
+h1, h2 {
+    color: blue;
+    margin-bottom: 10px;
+}
+/* Paragraph styling */
+p {
+    margin: 10px 0;
+    color: #0b0a0a;
+}
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse:collapse;
+    border:1pxsolid rgb(25, 147, 235);
+    margin: 20px 0;
+}
+table:hover{
+    opacity:0.5;
+}
+table{
+    opacity: 1.0;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black}
+th {
+    background-color: white;
+}
+/* Links */
+a {
+    color: #3498DB;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Image styling */
+img:hover{
+    opacity:0.5;
+    transform: rotate(10deg) scale(1.1); /* Color and rotation change */
+}
+img{
+    opacity:1.0;
+}
+img{
+    width: 400px;
+    height: 600px;
+}
+
+h1{
+    text-align: row;
+}
+h6{
+    color: darkred;
+}
+h6,h5:hover{
+    color: green;
+}
+h4{
+    text-align: center;
+}
+form{
+  max-width: 500px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: lightblue;
+    border: 5px;
+    box-shadow: 0 0 5px rgba(red, green, blue, alpha);
+}
+label{
+    display: inline;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="name"],input[type="email"],textarea{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+textarea{
+    height: 150px;
+    resize: vertical;
+}
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+    background-color: rgb(0, 255, 110);
+}
+input:focus, textarea:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+@media (max-width: 600px) {
+    form{
+        padding: 10px;
+    }
+}
+
+button{
+    background-color: #0b0a0a;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70px;
+}
+
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button a:hover{
+    color: #4caf50;
+}
+
+h1{
+    text-align: center;
+}
+
+.fa-whatsapp{
+    color: #4caf50;
+}
+.fa-tiktok{
+    color: white;
+}
